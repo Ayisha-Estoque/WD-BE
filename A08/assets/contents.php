@@ -13,7 +13,7 @@
                 foreach ($islandContents[$island['islandOfPersonalityID']] as $content) {
                     ?>
                     <div class="card"
-                        style="background-color: <?php echo !empty($island['color']) ? htmlspecialchars($island['color']) : '#ffffff'; ?>;">
+                        style="background-color: <?php echo ($island['color']) ? $island['color'] : '#ffffff'; ?>;">
                         <img src="image/<?php echo $content['image']; ?>" alt="<?php echo $content['title']; ?>"
                             class="imageContent">
                         <div class="imageLabelContent"><?php echo $content['title']; ?></div>
