@@ -1,0 +1,109 @@
+body {
+    background-color: #F9DFB8;
+}
+
+.navbar {
+    background-color: #C18D56;
+    width: 100%;
+    top: 0;
+}
+
+.navbarHeader {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inknut Antiqua';
+}
+
+.navbarIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    margin-left: -20px;
+}
+
+.introSection {
+    margin-top: 40px;
+}
+
+.profilePic {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.introText h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #1A1A2E;
+    font-family: 'Inknut Antiqua';
+    margin-top: 50px;
+}
+
+.introText p {
+    font-size: 1.5em;
+    color: #333333;
+    line-height: 1.7;
+    text-align: justify;
+    font-family: 'Instrument Serif';
+    margin-bottom: 60px;
+}
+
+.projectsSection {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projectsSection h2 {
+    font-size: 2em;
+    color: #1A1A2E;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-family: 'Inknut Antiqua';
+}
+
+.projectButton {
+    background: #593A2D;
+    border: none;
+    border-radius: 50px;
+    color: #F9DFB8;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Instrument Serif';
+    transition: background 0.3s, transform 0.3s;
+    margin: 10px;
+}
+
+.projectButton:hover {
+    background-color: #C18D56;
+    color: #1A1A2E;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.otherProjectsSection {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.otherProjectsSection h2 {
+    font-size: 2em;
+    color: #1A1A2E;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-family: 'Inknut Antiqua';
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #1A1A2E;
+    margin-top: 20px;
+}
