@@ -5,12 +5,12 @@
     <div class="w3-row-padding" style="margin:0 -16px">
         <div class="col-12">
             <div class="imageContainer">
-                <?php while ($island = mysqli_fetch_assoc($resultPersonality)){ ?>
+                <?php while ($personalityRow = mysqli_fetch_assoc($resultPersonality)){ ?>
                     <div class="imageItem">
-                        <img src="image/<?php echo $island['imageCategory']; ?>" alt="<?php echo $island['name']; ?>"
+                        <img src="image/<?php echo $personalityRow['imageCategory']; ?>" alt="<?php echo $personalityRow['name']; ?>"
                             class="image">
-                        <div class="imageLabel"><?php echo $island['name']; ?></div>
-                        <div class="imageDescriptionPersonality"><?php echo $island['shortDescription']; ?>
+                        <div class="imageLabel"><?php echo $personalityRow['name']; ?></div>
+                        <div class="imageDescriptionPersonality"><?php echo $personalityRow['shortDescription']; ?>
                         </div>
                     </div>
                 <?php } ?>
